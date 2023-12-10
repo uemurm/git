@@ -1,5 +1,4 @@
-# Can migrate to ~/.config/git/config if this file gets longer.
-# This file needs to be copied to %USERPROFILE%\.gitconfig
+# This file should work without copying to %USERPROFILE%\.gitconfig
 [alias]
 	ci = commit
 	cf = config
@@ -12,3 +11,5 @@
 [user]
 	name = Mitsu Uemura
 	email = mitsuhide.uemura@gmail.com
+[core]
+	autocrlf = false
