@@ -11,6 +11,3 @@
 [user]
 	name = Mitsu Uemura
 	email = mitsuhide.uemura@gmail.com
-[core]
-	autocrlf = false
-	
