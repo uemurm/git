@@ -1,4 +1,6 @@
 # This file should work without copying to %USERPROFILE%\.gitconfig
+[core]
+	autocrlf = false 	# To access same files both via cmd, WSL, and MSYS2
 [alias]
 	ci = commit
 	cf = config
@@ -11,6 +13,7 @@
 [user]
 	name = Mitsu Uemura
 	email = mitsuhide.uemura@gmail.com
-
 [push]
 	autoSetupRemote = true 	# Assume --set-upstream on default push when no upstream tracking exists for the current branch. (v2.37+)
+[init]
+	defaultBranch = main
