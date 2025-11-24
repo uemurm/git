@@ -14,3 +14,5 @@
 
 [push]
 	autoSetupRemote = true 	# Assume --set-upstream on default push when no upstream tracking exists for the current branch. (v2.37+)
+[init]
+	defaultBranch = main
